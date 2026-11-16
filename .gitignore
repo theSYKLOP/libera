@@ -1,0 +1,21 @@
+# Compilation
+/target
+**/target
+/app/src-tauri/gen/
+
+# Exécutables et archives (à publier dans les Releases GitHub, pas dans le dépôt)
+*.exe
+*.zip
+*.msi
+
+# Outils et éditeurs
+.vscode/
+.idea/
+.claude/
+.impeccable*
+graphify-out/
+*.log
+Thumbs.db
+.DS_Store
+
+*.stackdump

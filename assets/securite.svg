@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 270" width="1100" height="270" role="img" aria-labelledby="t d">
+  <title id="t">Sécurité en quatre couches</title>
+  <desc id="d">Les dossiers vitaux de Windows sont toujours protégés, puis les protections choisies par l'utilisateur, puis l'autorisation donnée dans le chat, puis la confirmation finale.</desc>
+  <g font-family="'Segoe UI Variable Text','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+    <rect x=".5" y=".5" width="1099" height="269" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="58" font-size="24" font-weight="700" fill="#0f172a">Quatre couches avant la moindre suppression</text>
+    <g font-size="13" fill="#64748b">
+      <g transform="translate(44 88)"><rect width="244" height="142" rx="16" fill="#fff" stroke="#cbd5e1"/>
+        <circle cx="30" cy="34" r="14" fill="#0f172a"/><text x="30" y="39" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+        <text x="54" y="39" font-size="17" font-weight="700" fill="#0f172a">Windows protégé</text>
+        <text x="24" y="74">Système, programmes, profil :</text><text x="24" y="94">toujours intouchables, quoi</text><text x="24" y="114">que tu choisisses.</text></g>
+      <g transform="translate(314 88)"><rect width="244" height="142" rx="16" fill="#fff" stroke="#cbd5e1"/>
+        <circle cx="30" cy="34" r="14" fill="#0f172a"/><text x="30" y="39" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+        <text x="54" y="39" font-size="17" font-weight="700" fill="#0f172a">Tes protections</text>
+        <text x="24" y="74">Code, musique, création,</text><text x="24" y="94">dossiers précis : tu choisis,</text><text x="24" y="114">tu changes quand tu veux.</text></g>
+      <g transform="translate(584 88)"><rect width="244" height="142" rx="16" fill="#fff" stroke="#cbd5e1"/>
+        <circle cx="30" cy="34" r="14" fill="#2563eb"/><text x="30" y="39" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+        <text x="54" y="39" font-size="17" font-weight="700" fill="#0f172a">Autorisation</text>
+        <text x="24" y="74">Si l'assistant est bloqué, il</text><text x="24" y="94">te demande dans le chat :</text><text x="24" y="114">un bouton suffit.</text></g>
+      <g transform="translate(854 88)"><rect width="202" height="142" rx="16" fill="#2563eb"/>
+        <circle cx="30" cy="34" r="14" fill="#fff"/><text x="30" y="39" font-size="14" font-weight="700" fill="#1d4ed8" text-anchor="middle">4</text>
+        <text x="54" y="39" font-size="17" font-weight="700" fill="#fff">Ta confirmation</text>
+        <text x="24" y="74" fill="#dbeafe">L'assistant ne peut pas</text><text x="24" y="94" fill="#dbeafe">supprimer : seule ta</text><text x="24" y="114" fill="#dbeafe">validation finale le fait.</text></g>
+    </g>
+  </g>
+</svg>

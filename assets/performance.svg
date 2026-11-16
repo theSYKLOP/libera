@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 440" width="1100" height="440" role="img" aria-labelledby="t d">
+  <title id="t">Vitesse d'analyse de Libéra</title>
+  <desc id="d">Analyse de 4,9 millions de fichiers : 94 secondes en parcours classique, 16,8 secondes en mode Expérimentale (lecture de la table MFT).</desc>
+  <g font-family="'Segoe UI Variable Text','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+    <rect x=".5" y=".5" width="1099" height="439" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="64" font-size="26" font-weight="700" fill="#0f172a">Vitesse d'analyse</text>
+    <text x="44" y="92" font-size="15" fill="#64748b">4,9 millions de fichiers, 1 million de dossiers, 465 Go de disque</text>
+
+    <text x="44" y="150" font-size="16" font-weight="600" fill="#334155">Parcours classique</text>
+    <text x="44" y="170" font-size="13" fill="#64748b">mode Standard</text>
+    <rect x="300" y="132" width="700" height="40" rx="10" fill="#e2e8f0"/>
+    <rect x="300" y="132" width="700" height="40" rx="10" fill="#94a3b8"/>
+    <text x="984" y="159" font-size="18" font-weight="700" fill="#fff" text-anchor="end">94 s</text>
+
+    <text x="44" y="224" font-size="16" font-weight="600" fill="#0f172a">Lecture de la table MFT</text>
+    <text x="44" y="244" font-size="13" fill="#64748b">mode Expérimentale (administrateur)</text>
+    <rect x="300" y="206" width="700" height="40" rx="10" fill="#e2e8f0"/>
+    <rect x="300" y="206" width="125" height="40" rx="10" fill="#2563eb"/>
+    <text x="441" y="233" font-size="18" font-weight="700" fill="#1d4ed8">16,8 s</text>
+    <g transform="translate(868 207)">
+      <rect width="132" height="38" rx="19" fill="#dbeafe"/>
+      <text x="66" y="25" font-size="15" font-weight="700" fill="#1d4ed8" text-anchor="middle">5,6× plus rapide</text>
+    </g>
+
+    <g transform="translate(44 296)" font-size="13" fill="#64748b">
+      <g><rect width="308" height="104" rx="14" fill="#fff" stroke="#e2e8f0"/>
+        <text x="22" y="46" font-size="30" font-weight="700" fill="#0f172a">≈ 290 000</text>
+        <text x="22" y="72" font-size="14" fill="#475569">fichiers lus par seconde</text><text x="22" y="90">en mode Expérimentale</text></g>
+      <g transform="translate(332 0)"><rect width="308" height="104" rx="14" fill="#fff" stroke="#e2e8f0"/>
+        <text x="22" y="46" font-size="30" font-weight="700" fill="#0f172a">6 Mo</text>
+        <text x="22" y="72" font-size="14" fill="#475569">un seul exécutable</text><text x="22" y="90">sans installation, sans Electron</text></g>
+      <g transform="translate(664 0)"><rect width="348" height="104" rx="14" fill="#fff" stroke="#e2e8f0"/>
+        <text x="22" y="46" font-size="30" font-weight="700" fill="#0f172a">≈ 0,1 s</text>
+        <text x="22" y="72" font-size="14" fill="#475569">pour vider un dossier piégé</text><text x="22" y="90">chemin de 600+ caractères, nom « nul »…</text></g>
+    </g>
+    <text x="44" y="424" font-size="12" fill="#94a3b8">Mesures réelles : Intel Core i7-7500U (2 cœurs), 8 Go de RAM, SSD NVMe. Les résultats varient selon le matériel.</text>
+  </g>
+</svg>

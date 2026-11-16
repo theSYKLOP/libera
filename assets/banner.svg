@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Libéra, nettoyeur de disque Windows avec assistant IA</title>
+  <desc id="d">Libère de l'espace, range ton PC, garde la main. Analyse MFT ultra rapide, suppression des dossiers récalcitrants, assistant IA qui demande l'autorisation.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#172554"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+    <clipPath id="c"><rect width="1280" height="400" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)" font-family="'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+    <rect width="1280" height="400" fill="#0b1220"/>
+    <!-- grand anneau décoratif : le disque qui s'ouvre -->
+    <g transform="translate(790 -70) scale(9)">
+      <path d="M43.3 20.7A16 16 0 1 0 48 32" fill="none" stroke="#2563eb" stroke-opacity=".28" stroke-width="5.4" stroke-linecap="round"/>
+      <circle cx="51" cy="24" r="3.4" fill="#60a5fa" fill-opacity=".9"/>
+    </g>
+    <!-- logo -->
+    <g transform="translate(64 56) scale(1.25)">
+      <rect width="64" height="64" rx="15" fill="url(#g)"/>
+      <path d="M43.3 20.7A16 16 0 1 0 48 32" fill="none" stroke="#fff" stroke-width="5.4" stroke-linecap="round"/>
+      <circle cx="51" cy="24" r="3.4" fill="#fff"/>
+    </g>
+    <text x="64" y="216" font-size="76" font-weight="700" letter-spacing="-2" fill="#f8fafc">Libéra</text>
+    <text x="64" y="262" font-size="27" fill="#cbd5e1">Le nettoyeur de disque Windows piloté par un assistant IA.</text>
+    <text x="64" y="298" font-size="19" fill="#94a3b8">Analyse MFT ultra rapide · Suppression des dossiers récalcitrants · Tu gardes la main</text>
+    <g font-size="15" font-weight="600" fill="#e2e8f0">
+      <rect x="64" y="328" width="104" height="34" rx="17" fill="#162033" stroke="#26344d"/><text x="116" y="350" text-anchor="middle">GPL-3.0</text>
+      <rect x="180" y="328" width="150" height="34" rx="17" fill="#162033" stroke="#26344d"/><text x="255" y="350" text-anchor="middle">Windows 10 / 11</text>
+      <rect x="342" y="328" width="150" height="34" rx="17" fill="#162033" stroke="#26344d"/><text x="417" y="350" text-anchor="middle">Rust + Tauri</text>
+    </g>
+  </g>
+</svg>

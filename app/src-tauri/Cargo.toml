@@ -1,0 +1,25 @@
+[package]
+name = "libera-app"
+version = "0.1.0"
+edition = "2021"
+authors = ["NGUEME OYONE FRANCK MEHDI"]
+license = "GPL-3.0-only"
+repository = "https://github.com/theSYKLOP/libera"
+readme = "../../README.md"
+description = "Libéra — analyse et nettoyage de disque"
+build = "build.rs"
+
+[[bin]]
+name = "libera"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+libera-core = { path = "../../core" }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+tauri = "2"
+tauri-plugin-dialog = "2"
+tiny_http = "0.12.0"
